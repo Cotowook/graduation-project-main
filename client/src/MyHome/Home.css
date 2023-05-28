@@ -1,0 +1,21 @@
+.Home {
+  height: 100%;
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+}
+.home_main {
+  height: 800px;
+  display: flex;
+}
+.hmm_id {
+  background-color: cornflowerblue;
+  height: 50px;
+}
+.profile {
+  border-radius: 50%;
+  background-color: bisque;
+  height: 250px;
+  width: 250px;
+}

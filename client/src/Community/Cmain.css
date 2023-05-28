@@ -1,0 +1,58 @@
+.Cmain {
+  width: 100%;
+  height: 760px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/cmback.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
+}
+.cmain_ab {
+  box-sizing: border-box;
+  height: 320px;
+  width: 100%;
+  padding: 20px;
+}
+.cmain_a {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../img/coad.jpg);
+}
+.cmain_main {
+  width: 70%;
+  height: 1210px;
+  background-color: #ffff;
+}
+
+.cmain_button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.cmain_bt {
+  box-shadow: 2px 2px 2px 2px gray;
+
+  background-color: #b98eff;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  color: #ffff;
+  height: 30px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.crud_map {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cmain_next {
+  display: flex;
+  justify-content: center;
+}

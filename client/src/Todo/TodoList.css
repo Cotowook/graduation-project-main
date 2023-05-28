@@ -1,0 +1,33 @@
+.TodoList {
+  padding: 0;
+}
+
+.TodoList li {
+  background: white;
+  padding: 15px 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  list-style: none;
+}
+
+.TodoList li span {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.TodoList li.on span {
+  color: white;
+}
+.TodoList li em {
+  cursor: pointer;
+}
+.TodoList li.on em {
+  color: white;
+  text-decoration: line-through rgb(159, 127, 231);
+}
+
+.TodoList li button {
+  float: right;
+  border: none;
+  color: rgb(148, 181, 230);
+}

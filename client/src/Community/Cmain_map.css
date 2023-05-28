@@ -1,0 +1,45 @@
+.cmain_crud {
+  height: 730px;
+}
+.crud_main {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../img/showingpage.png");
+}
+.crud_first {
+  box-shadow: 5px 5px 5px 5px gray;
+  box-sizing: border-box;
+  border-radius: 30px;
+  height: 270px;
+  margin: 25px;
+  width: 20%;
+  border: none;
+  background-image: linear-gradient(#b98eff, white);
+}
+.crud_first > h3 {
+  font-size: small;
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "oneFontTitle";
+}
+.crud_first > img {
+  height: 90px;
+  width: 120px;
+}
+.crud_button {
+  display: flex;
+  justify-content: center;
+}
+.crud_first > div > button {
+  border: none;
+  background-color: #ffff;
+  height: 30px;
+  width: 70%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.crud_list {
+  font-size: small;
+}

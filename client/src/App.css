@@ -1,0 +1,9 @@
+@font-face {
+  font-family: oneFontTitle;
+  src: url(../src/font/ONE\ Mobile\ Title.ttf);
+}
+
+@font-face {
+  font-family: oneFont;
+  src: url(../src/font/ONE\ Mobile\ Regular.ttf);
+}

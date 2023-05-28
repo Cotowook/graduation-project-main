@@ -1,0 +1,60 @@
+.tab {
+  color: rgb(203, 170, 254);
+  font-weight: bolder;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  margin-left: 3rem;
+  background: white;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.tab:first-child {
+  margin-left: 5rem;
+}
+
+.todo_leftSide {
+  margin-top: 6rem;
+}
+
+.Todos {
+  width: 35rem;
+  border-radius: 10px;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 50px;
+  background: white;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.Todos h1 {
+  text-align: center;
+  padding: 30px 0;
+  background: rgb(203, 170, 254);
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  border-radius: 10px 10px 50% 50%;
+  font-family: "oneFontTitle";
+}
+
+/* calendar css code */
+.calendar-parent {
+  color: rgb(203, 170, 254);
+  padding-top: 1rem;
+  padding-bottom: 30%;
+  position: absolute;
+  right: 0;
+  width: 45%;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.calendar {
+  position: absolute;
+  padding-left: 3rem;
+  width: 50rem;
+}
